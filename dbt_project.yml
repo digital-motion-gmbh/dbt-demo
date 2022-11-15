@@ -37,4 +37,10 @@ models:
     staging:
       +enable: true
       +materialized: view
-      +schema: xia_test
+      +schema: stg_test
+    warehouse:
+      +enable: true
+      +materialized: table
+      +schema: dwh_test
+      dim_date:
+        +materialized: view
