@@ -44,3 +44,7 @@ models:
       +schema: dwh_test
       dim_date:
         +materialized: view
+    analytics_obt:
+      +enable: true
+      +materialized: table
+      +schema: obt_test
