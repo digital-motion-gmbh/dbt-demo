@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: northwind
+    schema: xia_test
+    tables:
+      - name: customer
+      - name: employees
